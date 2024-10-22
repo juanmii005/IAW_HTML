@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio 1 de HTML IAW</title>
+    </head>
+    <body>
+        HTML (Lenguaje de Marcas de Hipertexto, del inglés HyperText Markup Language) 
+        es el componente más básico de la Web. Define el significado y la estructura 
+        del contenido web. Además de HTML, generalmente se utilizan otras tecnologías 
+        para describir la apariencia/presentación de una página web (CSS) o la 
+        funcionalidad/comportamiento (JavaScript).
+        
+        Muchos símbolos matemáticos, técnicos y monetarios no están presentes en un teclado normal.
+
+        Para agregar dichos símbolos a una página HTML, puede utilizar el nombre de la entidad o el número 
+        de entidad (una referencia decimal o hexadecimal) para el símbolo:
+
+        Letras griegas:
+        &#913;
+        &#914;
+        &#915;
+        &#916;
+    </body>
+</html>

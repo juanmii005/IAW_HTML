@@ -3,9 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ejercicio 7 de HTML IAW</title>
 </head>
 <body>
-    
+    <table style="border: solid;">
+        <thead>
+            <caption>TURNOS DE LA SEMANA</caption>
+        </thead>
+        <tbody>
+        <tr>
+            <th style="border: solid;" colspan="2">LUNES</th>
+            <th style="border: solid;" colspan="2">MARTES</th>
+            <th style="border: solid;" colspan="2">JUEVES</th>
+            <th style="border: solid;" colspan="2">SABADO</th>
+        </tr>
+        <tr>
+            <th style="border: solid;">MAÑANA</th>
+            <td style="border: solid;" rowspan="3">LUISA</td>
+            <td style="border: solid;" colspan="2" rowspan="2">DANIEL</td>
+            <td style="border: solid;" colspan="2">PACO</td>
+            <td style="border: solid;" colspan="2">CARMEN</td>
+        </tr>
+        <tr>
+            <th style="border: solid;">TARDE</th>
+            <td style="border: solid;" colspan="2">PEPE</td>
+            <td style="border: solid;" colspan="2" rowspan="2">PACO</td>
+        </tr>
+        <tr>
+            <th style="border: solid;">NOCHE</th>
+            <td style="border: solid;" colspan="2">CARMEN</td>
+            <td style="border: solid;" colspan="2">PACO</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <td colspan="4">CAMBIO DE TURNOS: 01/12/2024</td>
+    </tfoot>
+    </table>
 </body>
 </html>

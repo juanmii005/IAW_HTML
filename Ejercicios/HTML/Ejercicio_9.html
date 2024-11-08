@@ -3,14 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio 8 de HTML IAW</title>
+    <title>Ejercicio 9 de HTML IAW</title>
 </head>
 <body>
-    <label for="correo">Correo electrónico</label>
-    <input id="correo" name="correo" type="email"><br>
-    <label for="web"></label>Sitio web</label>
-    <input id="web" name="webs" type="url"><br>
-    <label for="numero">Teléfono</label>
-    <input id="numero" name="numero" type="tel">
+    <label for="rango">GANAS DE UN HELADO</label>
+    <input type="range" min="0" max="100" step="1" name="rango" id="rango">
+    <input type="number" id="numero" name="numero">
+    <script>
+        const rango = document.getElementById("rango")
+        const numero = document.getElementById("numero")
+        rango.onchange = function(){
+        numero.value = rango.value;
+        }
+    </script>
+    <br><br>
+    <label for="fechayhoralocal">FECHA Y HORA: </label>
+    <input id="fechayhoralocal" name="fechayhoralocal"
+    type="datetime-local">
+    <br><br>
+    <label for="mes">MES: </label>
+    <input id="mes" name="mes" type="month">
+    <br><br>
+    <label for="colorfavorito">COLOR FAVORITO</label>
+    <input id="colorfavorito" name="colorfavorito" type="color">
+    <br><br>
+    <label for="equipo">EQUIPOS FAVORITO:</label>
+    <input list="equipos" name="equipo" id="equipo">
+        <datalist id="equipos">
+        <option value="Madrid ⬜">
+        <option value="Betis 🟩">
+        <option value="San Marino 🟦">
+        <option value="Armée Patriotique Rwandaise 🟨">
+        <option value="Global ⬛">
+        <option value="Barcelona 🟥">
+        </datalist>
+    <br><br>
+    <label for="contra">Contraseña:</label>
+    <input type="text" id="contra" name="contra" pattern="(([X-Z]{1})([-]?)(\d{7})([-]?)([A-Z]{1}))|((\d{8})([-]?)([A-Z]{1}))">
+    <br><br>
+    <label for="cp">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" placeholder="Apellidos y Nombre" required>
+    <br><br>
 </body>
 </html>

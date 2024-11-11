@@ -15,7 +15,7 @@ h1.encabezado {
 }
 
 ul {
-    list-style-type: georgian;
+    list-style-type: armenian;
 }
 
 h1 {
@@ -40,6 +40,6 @@ mark {
     background-color: rgb(169, 255, 169);
 }
 
-meter {
-    
+footer {
+    border: solid;
 }

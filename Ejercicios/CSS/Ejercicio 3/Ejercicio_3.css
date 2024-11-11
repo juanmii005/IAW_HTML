@@ -1,0 +1,43 @@
+body {
+    background-image: url(https://st.depositphotos.com/1605581/2757/i/450/depositphotos_27575223-stock-photo-blue-gradient-background.jpg);
+    background-size: cover;
+}
+
+header {
+    border: solid;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    border-radius: 30px;
+    background-color: hsl(120, 65%, 36%);
+}
+
+h1.encabezado {
+    text-align: center;
+    color: hsl(120, 100%, 49%);
+}
+
+img.encabezado {
+    float: left; 
+    margin-top: -15px; 
+    height: 75px;
+    margin-left: 20px;
+}
+
+h2 {
+    color:rgba(138, 5, 168)
+}
+
+p {
+    background-color: rgb(0, 45, 22);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    color: hsla(5, 80%, 50%);
+}
+
+hr {
+    border-color: rgb(255, 0, 238);
+}

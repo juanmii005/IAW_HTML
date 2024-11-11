@@ -1,0 +1,45 @@
+body {
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-abstracto-textura_1258-30692.jpg);
+    background-size: cover;
+}
+
+header {
+    border: solid;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+h1.encabezado {
+    text-align: center;
+    color: darkgreen;
+}
+
+ul {
+    list-style-type: georgian;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+h2 {
+    color: red;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+mark {
+    background-color: rgb(169, 255, 169);
+}
+
+meter {
+    
+}

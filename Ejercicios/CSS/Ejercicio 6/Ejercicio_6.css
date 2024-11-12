@@ -4,9 +4,7 @@ html {
 
 body {
     background-image: url(https://academia-granada.es/wp-content/uploads/2022/02/astro-calculadora-13-300x300.png), url(https://png.pngtree.com/thumb_back/fh260/background/20210408/pngtree-vertical-geometric-trendy-composition-of-silver-lines-on-black-neutral-background-image_605703.jpg);
-    background-repeat: repeat-y,no-repeat;
     background-size: cover;
-    
 }
 
 header {

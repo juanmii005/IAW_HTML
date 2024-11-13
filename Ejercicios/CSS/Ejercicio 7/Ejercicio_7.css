@@ -1,0 +1,13 @@
+#randomColorButton {
+    padding: 20px;
+    font-size: 100px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #000000;
+    border-radius: 50px;
+    transition: background-color 1s ease; /* Transición de color */
+}
+
+#randomColorButton:hover {
+    background-color: var(--randomColor);
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 7 CSS</title>
+    <link rel="stylesheet" type="text/css" href="Ejercicio_7.css">
+
+</head>
+<body>
+        <button id="randomColorButton">BOTÓN TUNING</button>
+        <script>
+// Selecciona el botón
+const button = document.getElementById('randomColorButton');
+
+// Función para generar un color aleatorio en formato hexadecimal
+function getRandomColor() {
+    const letters = '0123456789ABCDEF';
+    let color = '#';
+    for (let i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+}
+
+// Evento para cambiar el color al pasar el cursor
+button.addEventListener('mouseover', () => {
+    const randomColor = getRandomColor();
+    button.style.setProperty('--randomColor', randomColor);
+});
+
+        </script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+img {
+
+}
+
+img:hover{
+    transform: rotate(720deg); 
+    transition: 4s;
+}
+
+p.imagen {
+    float: right;
+    vertical-align: top;
+}

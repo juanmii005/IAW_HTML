@@ -10,10 +10,8 @@
 <body>
         <button id="randomColorButton">BOTÓN TUNING</button>
         <script>
-// Selecciona el botón
 const button = document.getElementById('randomColorButton');
 
-// Función para generar un color aleatorio en formato hexadecimal
 function getRandomColor() {
     const letters = '0123456789ABCDEF';
     let color = '#';
@@ -23,7 +21,6 @@ function getRandomColor() {
     return color;
 }
 
-// Evento para cambiar el color al pasar el cursor
 button.addEventListener('mouseover', () => {
     const randomColor = getRandomColor();
     button.style.setProperty('--randomColor', randomColor);

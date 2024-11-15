@@ -1,13 +1,41 @@
-img {
-
+header {
+    border: solid;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    border-radius: 30px;
 }
 
-img:hover{
+h1.encabezado {
+    text-align: center;
+}
+
+img.encabezado {
+    float: left; 
+    margin-top: -15px; 
+    height: 75px;
+    margin-left: 20px;
+}
+
+img.rotar:hover{
     transform: rotate(720deg); 
     transition: 4s;
 }
 
-p.imagen {
-    float: right;
-    vertical-align: top;
+img.escala:hover{
+    transform: scale(30%); 
+    transition: 4s;
+}
+
+img.sesgar:hover{
+    transform: translate(100%); 
+    transition: 4s;
+}
+
+img.translacion:hover{
+    transform: skew(-50deg, 0);  
+    transition: 4s;
+}
+
+p {
+    text-align: center;
 }

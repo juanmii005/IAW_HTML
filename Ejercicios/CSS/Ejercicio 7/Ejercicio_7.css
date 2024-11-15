@@ -1,3 +1,22 @@
+header {
+    border: solid;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+h1.encabezado {
+    text-align: center;
+}
+
+img.encabezado {
+    float: left; 
+    margin-top: -15px; 
+    height: 75px;
+    margin-left: 20px;
+}
+
 #randomColorButton {
     padding: 20px;
     font-size: 100px;
